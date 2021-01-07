@@ -1,0 +1,11 @@
+{
+  "name": "problem-set-11_3",
+  "version": "1.0.0",
+  "main": "exercises.js",
+  "repository": "https://github.com/The-Marcy-Lab-School/problem-set-11_3.git",
+  "author": "Ian Candy <iancandysemail@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  }
+}
