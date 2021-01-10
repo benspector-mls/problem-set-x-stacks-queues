@@ -15,17 +15,17 @@ class Deque {
 }
 
 // Question 4
-const isBalancedParentheses = () => {
+const isBalancedParentheses = (inputString) => {
 
 };
 
 // Question 5
-const isPalindrome = () => {
+const isPalindrome = (inputString) => {
 
 };
 
 // Question 6
-const decimalToBinary = () => {
+const decimalToBinary = (num) => {
 
 };
 
