@@ -1,7 +1,5 @@
 const { Stack, Queue, Deque, isBalancedParentheses, isPalindrome, decimalToBinary } =  require('./exercises.js');
 
-// Remove the .skip calls once you've implemented each section...
-
 describe('Stack', () => {
   it('is empty by default', () => {
     const stack = new Stack();
@@ -11,14 +9,14 @@ describe('Stack', () => {
   it('can add items', () => {
     const stack = new Stack();
     stack.push('a');
-    expect(stack.isEmpty).toEqual(false);
+    expect(stack.isEmpty()).toEqual(false);
   });
 
   it('can remove items', () => {
     const stack = new Stack();
     stack.push('a');
     expect(stack.pop()).toEqual('a');
-    expect(stack.isEmpty).toEqual(true);
+    expect(stack.isEmpty()).toEqual(true);
   });
 
   it('can hold mulitiple items', () => {
@@ -72,12 +70,12 @@ describe('Deque', () => {
     expect(deque.isEmpty()).toEqual(true);
   });
 
-  it('cann add to the rear and front', () => {
+  it('can add to the rear and front', () => {
     const deque = new Deque();
     deque.addRear(4);
     deque.addRear('Dog');
     deque.addFront('Cat');
-    deque.addFront(True);
+    deque.addFront(true);
     expect(deque.size()).toEqual(4);
     expect(deque.isEmpty()).toEqual(false);
     deque.addRear(8.4);
