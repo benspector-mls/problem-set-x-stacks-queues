@@ -18,7 +18,7 @@ Answer the following questions in `exercises.py` or `exercises.js`. Run unit tes
 3. Implement a [Deque](https://bradfieldcs.com/algos/deques/introduction/).
 
 
-**Use Stacks, Deques, and/or Queue to solve the following three problems in linear runtime.**
+**Use a Stack to solve the following three problems in linear runtime.**
 
 4. Write a function, `is_balanced_parentheses`, that returns a boolean value based on whether a string has balanced parentheses. Parentheses are balanced if: **(1)** Every open parenthesis has a corresponding closing parenthesis and **(2)** every pair of parentheses begins with an opening parenthesis.
 
