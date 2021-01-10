@@ -9,7 +9,7 @@ Respond to short response questions in clear, concise sentences directly within 
 2. What is a queue? (_Be sure to use the term **FIFO** in your response._)
 
 ### Coding Exercises
-Answer the following questions in `exercises.py` or `exercises.js`. Run unit test with the `pytest` command for Python, or `yarn test` for JS. Ensure all tests are passing before submitting this problem set.
+Answer the following questions in `exercises.py` or `exercises.js`. Run unit test with the `pytest` command for Python, or `npm test` for JS. Ensure all tests are passing before submitting this problem set.
 
 1. Implement a Stack.
 
