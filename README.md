@@ -15,7 +15,7 @@ Answer the following questions in `exercises.py` or `exercises.js`. Run unit tes
 
 2. Implement a Queue.
 
-3. Implement a Deque.
+3. Implement a [Deque](https://bradfieldcs.com/algos/deques/introduction/).
 
 
 **Use Stacks, Deques, and/or Queue to solve the following three problems in linear runtime.**
