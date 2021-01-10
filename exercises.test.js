@@ -2,7 +2,7 @@ const { Stack, Queue, Deque, isBalancedParentheses, isPalindrome, decimalToBinar
 
 // Remove the .skip calls once you've implemented each section...
 
-describe.skip('Stack', () => {
+describe('Stack', () => {
   it('is empty by default', () => {
     const stack = new Stack();
     expect(stack.isEmpty()).toEqual(true);
@@ -36,7 +36,7 @@ describe.skip('Stack', () => {
   });
 });
 
-describe.skip('Queue', () => {
+describe('Queue', () => {
   it('is empty by default', () => {
     const queue = new Queue();
     expect(queue.isEmpty()).toEqual(true);
@@ -66,7 +66,7 @@ describe.skip('Queue', () => {
   });
 });
 
-describe.skip('Deque', () => {
+describe('Deque', () => {
   it('is empty by default', () => {
     const deque = new Deque();
     expect(deque.isEmpty()).toEqual(true);
@@ -86,7 +86,7 @@ describe.skip('Deque', () => {
   });
 });
 
-describe.skip('isBalancedParentheses', () => {
+describe('isBalancedParentheses', () => {
   it('can determine parentheses balance', () => {
     expect(isBalancedParentheses('()()')).toEqual(true);
     expect(isBalancedParentheses('()((')).toEqual(false);
@@ -95,7 +95,7 @@ describe.skip('isBalancedParentheses', () => {
   })
 });
 
-describe.skip('isPalindrome', () => {
+describe('isPalindrome', () => {
   it('can determine if a string is a palindrome', () => {
     expect(isPalindrome('abba')).toEqual(true);
     expect(isPalindrome('racecar')).toEqual(true);
