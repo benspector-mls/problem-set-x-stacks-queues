@@ -88,6 +88,7 @@ describe('isBalancedParentheses', () => {
   it('can determine parentheses balance', () => {
     expect(isBalancedParentheses('()()')).toEqual(true);
     expect(isBalancedParentheses('()((')).toEqual(false);
+    expect(isBalancedParentheses('()(()))')).toEqual(false);
     expect(isBalancedParentheses('((()))()')).toEqual(true);
     expect(isBalancedParentheses(')()(')).toEqual(false);
   })
