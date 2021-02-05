@@ -1,7 +1,11 @@
-# Problem Set 11.3 - Stacks, Queues, and Deques
+# Problem Set: Stacks, Queues, and Deques
 
 ## Directions
 Respond to short response questions in clear, concise sentences directly within this file. Use markdown to ensure that your answers are formatted correctly.
+
+Complete code challenges in `exercises.py` or `exercises.js`. 
+
+Use Test Driven Development to guide you. For JavaScript, run `npm install` to download dependencies. Run `npm test` to run tests locally. Ensure all tests are passing before submitting this problem set.
 
 ### Short Response Questions
 1. What is a stack? (_Be sure to use the term **LIFO** in your response._)
@@ -9,14 +13,12 @@ Respond to short response questions in clear, concise sentences directly within 
 2. What is a queue? (_Be sure to use the term **FIFO** in your response._)
 
 ### Coding Exercises
-Answer the following questions in `exercises.py` or `exercises.js`. Run unit test with the `pytest` command for Python, or `npm test` for JS. Ensure all tests are passing before submitting this problem set.
 
 1. Implement a Stack.
 
 2. Implement a Queue.
 
 3. Implement a [Deque](https://bradfieldcs.com/algos/deques/introduction/).
-
 
 **Use a Stack to solve the following three problems in linear runtime.**
 
