@@ -1,4 +1,4 @@
-# Problem Set: Stacks, Queues, and Deques
+# Problem Set: Stacks and Queues
 
 ## Directions
 Respond to short response questions in clear, concise sentences directly within this file. Use markdown to ensure that your answers are formatted correctly.
@@ -17,8 +17,6 @@ Use Test Driven Development to guide you. For JavaScript, run `npm install` to d
 1. Implement a Stack.
 
 2. Implement a Queue.
-
-3. Implement a [Deque](https://bradfieldcs.com/algos/deques/introduction/).
 
 **Use a Stack to solve the following three problems in linear runtime.**
 
