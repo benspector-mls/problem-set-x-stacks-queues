@@ -20,8 +20,8 @@ Use Test Driven Development to guide you. For JavaScript, run `npm install` to d
 
 **Use a Stack to solve the following three problems in linear runtime.**
 
-4. Write a function, `is_balanced_parentheses`, that returns a boolean value based on whether a string has balanced parentheses. Parentheses are balanced if: **(1)** Every open parenthesis has a corresponding closing parenthesis and **(2)** every pair of parentheses begins with an opening parenthesis.
+3. Write a function, `is_balanced_parentheses`, that returns a boolean value based on whether a string has balanced parentheses. Parentheses are balanced if: **(1)** Every open parenthesis has a corresponding closing parenthesis and **(2)** every pair of parentheses begins with an opening parenthesis.
 
-5. Write a function, `is_palindrome`, that takes a string input and determines if the input is a palindrome.
+4. Write a function, `is_palindrome`, that takes a string input and determines if the input is a palindrome.
 
-6. Write a function, `decimal_to_binary`, that takes an integer input and returns its binary representation as a string of digits.
+5. Write a function, `decimal_to_binary`, that takes an integer input and returns its binary representation as a string of digits.
