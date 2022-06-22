@@ -8,27 +8,21 @@ class Queue {
 
 }
 
-
 // Question 3
-class Deque {
-
-}
-
-// Question 4
 const isBalancedParentheses = (inputString) => {
 
 };
 
-// Question 5
+// Question 4
 const isPalindrome = (inputString) => {
 
 };
 
-// Question 6
+// Question 5
 const decimalToBinary = (num) => {
 
 };
 
 module.exports = {
-  Stack, Queue, Deque, isBalancedParentheses, isPalindrome, decimalToBinary
+  Stack, Queue, isBalancedParentheses, isPalindrome, decimalToBinary
 }
