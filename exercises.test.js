@@ -1,4 +1,4 @@
-const { Stack, Queue, Deque, isBalancedParentheses, isPalindrome, decimalToBinary } =  require('./exercises.js');
+const { Stack, Queue, isBalancedParentheses, isPalindrome, decimalToBinary } =  require('./exercises.js');
 
 describe('Stack', () => {
   it('is empty by default', () => {
@@ -61,26 +61,6 @@ describe('Queue', () => {
     queue.enqueue('3rd');
     expect(queue.dequeue()).toEqual('1st');
     expect(queue.size()).toEqual(2);
-  });
-});
-
-describe('Deque', () => {
-  it('is empty by default', () => {
-    const deque = new Deque();
-    expect(deque.isEmpty()).toEqual(true);
-  });
-
-  it('can add to the rear and front', () => {
-    const deque = new Deque();
-    deque.addRear(4);
-    deque.addRear('Dog');
-    deque.addFront('Cat');
-    deque.addFront(true);
-    expect(deque.size()).toEqual(4);
-    expect(deque.isEmpty()).toEqual(false);
-    deque.addRear(8.4);
-    expect(deque.removeRear()).toEqual(8.4);
-    expect(deque.removeFront()).toEqual(true);
   });
 });
 
