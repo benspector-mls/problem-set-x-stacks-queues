@@ -10,7 +10,15 @@ Use Test Driven Development to guide you. For JavaScript, run `npm install` to d
 ### Short Response Questions
 1. What is a stack? (_Be sure to use the term **LIFO** in your response._)
 
+* A stack is an abstract data type that can hold many elements.
+* Stacks implement two methods: `push` (adds a value) and `pop` (removes a value). 
+* Stacks operate in a **last-in-first-out (LIFO)** model meaning the item in the stack that was most recently added to the stack is the first to be removed by the `pop` method.
+
 2. What is a queue? (_Be sure to use the term **FIFO** in your response._)
+
+* A queue is an abstract data type that can hold many elements.
+* Queues implement two methods: `enqueue` (adds a value) and `dequeue` (removes a value). 
+* Queues operate in a **first-in-first-out (FIFO)** model meaning the item in the queue that has been in the queue the longest (the first one in) is the first to be removed by the `dequeue` method.
 
 ### Coding Exercises
 
